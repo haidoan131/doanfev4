@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/doanfev4/static/css/main.4f068939.css",
+    "main.js": "/doanfev4/static/js/main.2df681df.js",
+    "static/media/about-01.png": "/doanfev4/static/media/about-01.c9fff7ece73708346f06.png",
+    "static/media/product4.png": "/doanfev4/static/media/product4.b8249947f1767f6a7163.png",
+    "static/media/ser-3.png": "/doanfev4/static/media/ser-3.e84eaf3547a946c98220.png",
+    "static/media/ser-4.png": "/doanfev4/static/media/ser-4.3c5675480baa1ab387d2.png",
+    "static/media/baby-seat2.png": "/doanfev4/static/media/baby-seat2.012726eca4f616da5c36.png",
+    "static/media/gallery-05.jpg": "/doanfev4/static/media/gallery-05.c5332f7959871eb89624.jpg",
+    "static/media/min-3.png": "/doanfev4/static/media/min-3.927d4146e267aba2ac3c.png",
+    "static/media/gallery-01-01.jpg": "/doanfev4/static/media/gallery-01-01.e25480ebd141867061ac.jpg",
+    "static/media/gallery-08.jpg": "/doanfev4/static/media/gallery-08.af35834ef1a52182be8e.jpg",
+    "static/media/gallery-04.jpg": "/doanfev4/static/media/gallery-04.97096f18bb881d3d4eb0.jpg",
+    "static/media/gallery-03.jpg": "/doanfev4/static/media/gallery-03.944b026c4a487c58e175.jpg",
+    "static/media/lt-2.jpg": "/doanfev4/static/media/lt-2.e0eaccec1cd2463473b1.jpg",
+    "static/media/ser-1.png": "/doanfev4/static/media/ser-1.17ead9fd0323f97f7404.png",
+    "static/media/gallery-02.jpg": "/doanfev4/static/media/gallery-02.8f3e5924ab833803d54b.jpg",
+    "static/media/gallery-06.jpg": "/doanfev4/static/media/gallery-06.fca7c4b7a8c65b5316b9.jpg",
+    "static/media/gallery-07.jpg": "/doanfev4/static/media/gallery-07.831483a023e654ddffc1.jpg",
+    "static/media/footer-pic.png": "/doanfev4/static/media/footer-pic.fdbfbe2e5d607f38d165.png",
+    "static/media/gallery-01.jpg": "/doanfev4/static/media/gallery-01.b7552c241f1db2100fdb.jpg",
+    "static/media/ser-2.png": "/doanfev4/static/media/ser-2.61698e3484ae568bd2ce.png",
+    "static/media/cate-1.jpg": "/doanfev4/static/media/cate-1.3969652ff02c295f14aa.jpg",
+    "static/media/dog-02.png": "/doanfev4/static/media/dog-02.2b659bc355d878fdc7fd.png",
+    "static/media/cate-4.jpg": "/doanfev4/static/media/cate-4.6b828106ffb583161570.jpg",
+    "static/media/testimonial4.jpg": "/doanfev4/static/media/testimonial4.abb4bf3e248e6c2c1ced.jpg",
+    "static/media/cate-5.jpg": "/doanfev4/static/media/cate-5.c9febd23b93ef00e4e5a.jpg",
+    "static/media/testimonial5.jpg": "/doanfev4/static/media/testimonial5.744433db1f24c24c79e4.jpg",
+    "static/media/pr-1.jpg": "/doanfev4/static/media/pr-1.a9f6d3c8d9f535c22fc3.jpg",
+    "static/media/cate-3.jpg": "/doanfev4/static/media/cate-3.a0ce2db389bea4191395.jpg",
+    "static/media/cate-2.jpg": "/doanfev4/static/media/cate-2.ca3326008f2943c4f81d.jpg",
+    "index.html": "/doanfev4/index.html",
+    "main.4f068939.css.map": "/doanfev4/static/css/main.4f068939.css.map",
+    "main.2df681df.js.map": "/doanfev4/static/js/main.2df681df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f068939.css",
+    "static/js/main.2df681df.js"
+  ]
+}
