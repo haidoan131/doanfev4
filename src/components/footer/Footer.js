@@ -30,7 +30,7 @@ export default function Footer() {
 							</ul>
 							<div class="subscribe_widget">
 								<h6 class="title fw-medium text-capitalize">subscribe to our newsletter</h6>	
-								<form class="dzSubscribe" action="script/mailchamp.php" method="post">
+								<div class="dzSubscribe" >
 									<div class="dzSubscribeMsg"></div>
 									<div class="form-group">
 										<div class="input-group mb-0">
@@ -45,7 +45,7 @@ export default function Footer() {
 											</div>
 										</div>
 									</div>
-								</form>
+								</div>
 							</div>
 						</div>
 						</div>
