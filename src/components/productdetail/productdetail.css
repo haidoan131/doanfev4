@@ -1,0 +1,90 @@
+.review-num {
+    display: flex;
+}
+ .dz-rating {
+    display: flex;
+    line-height: 18px;
+}
+ .propara-text {
+    font-size: 15px;
+    color: var(--secondary);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.meta-content {
+    text-align: left;
+}
+.form-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--title);
+    margin-bottom: 5px;
+    background: transparent;
+    border-color: #000000;
+    font-family: var(--font-family-title);
+}
+.price-num {
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--font-family-title);
+    color: var(--secondary);
+}
+.meta-content span {
+    display: block;
+}
+.price-num del {
+    font-size: 16px;
+    opacity: 0.60;
+}
+.btn-quantity {
+    margin-left: 55px !important;
+}
+.form-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--title);
+    margin-bottom: 5px;
+    background: transparent;
+    border-color: #000000;
+    font-family: var(--font-family-title);
+}
+.btn-quantity.light .bootstrap-touchspin {
+    width: 110px;
+}
+.cart-btn{
+    margin-top :30px
+}
+.cart-btn .btn-secondary{
+    margin-top:0
+}
+.dz-info ul {
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.dz-info ul li {
+    color: var(--secondary);
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.dz-info ul li:last-child span {
+    padding: 0 10px;
+}
+.detailimg{
+    width:100%
+}
+.myproductdetail{
+    padding-top:140px
+}
+@media only screen and (min-width: 1229px) {
+    .myproductdetail .dz-content-start{
+        margin-bottom: 20px;
+
+    }
+    .myproductdetail .dz-info ul {
+        padding-top: 40px;
+    }
+}

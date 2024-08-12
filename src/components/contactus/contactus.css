@@ -1,0 +1,52 @@
+.contact-bnr {
+    padding-top: 150px;
+    padding-bottom: 20px;
+    background: var(--secondary);
+}
+.contact-info.style-1 {
+    margin-bottom: 60px;
+    min-height: 335px;
+}
+.contact-info.style-1 .text {
+    color: #000;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: unset;
+    margin-right: unset;
+    margin-bottom: 55px;
+    font-family: var(--font-family-title);
+}
+.contact-info.style-1 .title {
+    font-weight: 600;
+    font-size: 40px;
+}
+.text-decoration-underline {
+    text-decoration: underline !important;
+}
+.contact-info.style-1 .contact-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 30px 0 0;
+}
+.contact-info.style-1 .contact-bottom .contact-left {
+    margin-right: 190px;
+}
+.contact-area1.style-1 {
+    margin: 0 0 -215px auto;
+}
+.contact-area1 {
+    padding: 60px 55px;
+    background: #FFF;
+    box-shadow: 0px 3px 29px 0px rgba(0, 0, 0, 0.07);
+    max-width: 520px;
+    margin-bottom: -215px;
+    position: relative;
+    z-index: 9;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 991px) {
+    .contact-area1.style-1 {
+        margin: 0;
+    }
+}

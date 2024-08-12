@@ -1,0 +1,147 @@
+.shop-checkout .title{
+    font-weight:700
+}
+.dz-accordion .accordion-item {
+    border-radius: 0;
+    overflow: hidden;
+    background: #FFEDE9;
+    margin-bottom: 20px;
+    border: 0;
+}
+.dz-accordion.accordion-sm .accordion-header .accordion-button {
+   
+}
+.shop-checkout .dz-accordion .accordion-item .accordion-header .accordion-button {
+    border: 1px solid #000;
+    font-family: var(--font-family-title);
+}
+.label-title {
+    font-weight: 500;
+    color: var(--secondary);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.form-select{
+    --bs-form-select-bg-img:
+}
+
+.order-detail {
+    padding: 30px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.cart-item.style-1 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cart-item.style-1 .dz-media {
+    min-width: 60px;
+    width: 60px;
+    height: 60px;
+}
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+.dz-media, .dz-post-media {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+.cart-item.style-1 .dz-content {
+    margin-left: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-item.style-1 .dz-content .price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #24262B;
+}
+.order-detail table tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.order-detail table tr td {
+    padding: 12px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #24262B;
+}
+.order-detail table tr td.price {
+    text-align: end;
+}
+.order-detail table {
+    width: 100%;
+}
+.order-detail table tr.title {
+    border-bottom: none;
+}
+.order-detail table tr.shipping td.price {
+    vertical-align: bottom;
+}
+.order-detail table tr.total td.price {
+    font-size: 24px;
+}
+.form-check-input.radio:checked[type="radio"] {
+    background-color: #000;
+    border: 1px solid #000;
+}
+.order-detail table tr.shipping td .custom-checkbox .form-check-label {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.order-detail .dz-accordion .accordion-item {
+    background: transparent;
+}
+.shop-checkout .dz-accordion .accordion-item {
+    margin-bottom: 15px;
+}
+.dz-accordion .accordion-item {
+    border-radius: 0;
+    overflow: hidden;
+    background: #FFEDE9;
+    margin-bottom: 20px;
+    border: 0;
+}
+.order-detail .dz-accordion .accordion-item .accordion-body {
+    padding: 8px 0;
+}
+.accordion-header .accordion-button {
+    padding:0
+}
+.order-detail .dz-accordion .accordion-item .accordion-header .accordion-button a {
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #000;
+}
+.accordion-item:last-of-type > .accordion-collapse {
+    border-bottom-right-radius: var(--bs-accordion-border-radius);
+    border-bottom-left-radius: var(--bs-accordion-border-radius);
+}
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+}
+.mypaypal{
+    margin-left:20px
+}

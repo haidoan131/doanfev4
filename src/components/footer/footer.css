@@ -1,0 +1,59 @@
+.back-main {
+    background-color: #FDDAD3;
+}
+footer .footer-top {
+    padding: 80px 0px 50px;
+    position: relative;
+    border-top: 1px solid #000;
+    margin-top:100px
+}
+footer .footer-bg-img:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-image: url(./../../images/shop/paw-line.png);
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+    bottom: -50px;
+    left: 0%;
+    z-index: 0;
+}
+footer .footer-bg-img img {
+    position: absolute;
+    height: 75%;
+    left: 0;
+    bottom: -81px;
+    z-index: -1;
+}
+
+    footer .footer-bg-img img {
+        height: 62%;
+        left: -17px;
+        z-index: 0;
+    }
+    @media only screen and (max-width: 1199px) {
+        footer .footer-bg-img img {
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 575px) {
+        footer .footer-bg-img:after {
+            height: 25%;
+        }
+    }
+
+    @media only screen and (max-width: 575px) {
+        footer .footer-top {
+            padding: 0;
+            margin:0
+        }
+    }
+
+    @media only screen and (max-width: 1408px) {
+        .mygaly.content-inner {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
+    }

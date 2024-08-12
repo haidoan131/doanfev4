@@ -1,0 +1,173 @@
+@media only screen and (max-width: 1480px) {
+    .content-inner {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+}
+
+
+.table-responsive {
+    overflow-x: auto;
+}
+.check-tbl {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    vertical-align: middle;
+}
+.check-tbl thead th {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 15px 15px 15px;
+    color: #24262B;
+}
+.table > :not(:first-child) {
+    border-top: 1px solid #dee2e6;
+}
+.check-tbl tbody tr td {
+    padding: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--secondary);
+    border: none;
+    font-family: var(--font-family-title);
+}
+.check-tbl tbody tr td img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+.check-tbl tbody tr td.product-item-price {
+    color: #5E626F;
+}
+.btn-quantity-2 .input-group {
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+.btn-quantity-2 .bootstrap-touchspin {
+    width: 150px;
+    min-width: 115px;
+    position: relative;
+    height: 40px;
+    display: block;
+}
+.btn-quantity-2 input {
+    width: auto;
+    padding: 0;
+    text-align: center;
+    z-index: 1;
+    height: 40px !important;
+    border: 1px solid #000;
+    background-color: transparent;
+    border-radius: 50% !important;
+    font-size: 15px;
+    width: 40px !important;
+    color: var(--title);
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.btn-quantity-2 .input-group-btn-vertical {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 0;
+    margin-left: 0 !important;
+    align-items: center;
+}
+.btn-quantity-2{
+    border-radius: 50%;
+    /* background-color: black; */
+}
+.quantity  .input-group .btn {
+    position: relative;
+    z-index: 2;
+    background-color: black;
+    border-radius: 50%;
+}
+.closecart{
+    
+    border-radius: 50%;
+    background: #000;
+}
+@media only screen and (max-width: 1199px) {
+    .check-tbl tbody tr td.product-item-name {
+        font-size: 16px;
+    }
+   
+}
+.shop-account .btn-secondary{
+    margin-top:0px;
+}
+.cart-detail {
+    background: tranparent;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 35px 30px;
+}
+.icon-bx-wraper.style-4 {
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+}
+.myship {
+    font-size: 50px;
+    margin-right: 10px;
+}
+.cart-detail table tr.total td.price {
+    font-family: var(--font-family-title);
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--secondary);
+    text-align: end;
+}
+.shop-account .title{
+    font-weight: 700;
+}
+
+
+
+@media only screen and (max-width: 775px) {
+    .mycart1 .check-tbl tbody tr td, .mycart1 .check-tbl thead th{
+        padding-left:0;
+        padding-right:0;
+    }
+    .mycart1.table-responsive,.shop-form .apply-cou,.shop-form .updatecart {
+        margin-bottom: 15px !important;
+    }
+    
+
+}
+@media only screen and (max-width: 480px) {
+    .mycart1 .check-tbl tbody tr td, .mycart1 .check-tbl thead th{
+        padding-left:0;
+        padding-right:0;
+    }
+    .mycart1 .check-tbl thead th {
+        font-size: 12px;
+    }
+    .mycart1 .check-tbl tbody tr td {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 397px) {
+    .mycart1 .check-tbl tbody tr td, .mycart1 .check-tbl thead th{
+        padding-left:0;
+        padding-right:0;
+    }
+    .mycart1 .check-tbl thead th {
+        font-size: 9px;
+    }
+    .mycart1 .check-tbl tbody tr td {
+        font-size: 9px;
+    }
+}

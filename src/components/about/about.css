@@ -1,0 +1,108 @@
+.max-w500 {
+    max-width: 500px;
+    font-weight: 700;
+}
+.about-style1 .about-content .para-text {
+    line-height: 1.6;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #24262B;
+}
+.about-bx-detail {
+    display: flex;
+    align-items: center;
+}
+.about-bx-detail .about-bx-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.about-bx-detail .about-bx-pic img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+.about-bx-detail .name {
+    font-size: 22px;
+    color: var(--title);
+    margin-bottom: 0;
+}
+.about-bx-detail .position {
+    font-size: 14px;
+}
+.about-style1 .about-thumb {
+    text-align: center;
+    position: relative;
+    margin-bottom: -30px;
+    z-index: 1;
+    height: 100%;
+    margin-left: -40px;
+    margin-top: -50px;
+    width: 41.5vw;
+    max-width: 990px;
+    min-width: 480px;
+}
+.about-style1 .about-thumb::before {
+    position: absolute;
+    content: '';
+    height: 70%;
+    right: 0;
+    left: 25px;
+    background: #FE8F90;
+    bottom: 0;
+    border-radius: 160px 160px 0 0;
+    z-index: -1;
+}
+.about-style1 .about-thumb img {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -10px;
+}
+@media only screen and (max-width: 1480px) {
+    .about-style1 .about-thumb svg {
+        left: 2%;
+        top: 28%;
+        width: 17%;
+    }
+}
+.about-style1 .about-thumb svg {
+    position: absolute;
+    left: -10px;
+    top: 206px;
+    transform: rotate(-6deg);
+}
+.about-style1 .about-thumb:after {
+    content: '';
+    position: absolute;
+    background: url(./../../images/shop/line.png);
+    display: block;
+    height: 100%;
+    width: 94%;
+    background-repeat: no-repeat;
+    top: 80px;
+    left: 36px;
+    z-index: -1;
+    background-size: contain;
+}
+@media only screen and (max-width: 575px) {
+    .about-style1 .about-thumb {
+        min-width: 305px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .about-style1 .about-thumb {
+        width: 72.5vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media only screen and (max-width: 1480px) {
+    .about-style1 .about-thumb svg {
+        left: 2%;
+        top: 28%;
+        width: 17%;
+    }
+}

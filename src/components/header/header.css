@@ -1,0 +1,241 @@
+.logo-header {
+    height: 80px;
+    max-width: 180px;
+    object-fit: contain;
+    transition: 0.8s;
+}
+
+.nav-link {
+    margin-right: 20px
+}
+
+.fuild {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .fuild {
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+
+.main-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: all 0.5s;
+    z-index: 9999;
+    background: transparent;
+    width: 100%;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mynav {
+    padding: 0;
+    background: #ffffff
+}
+
+/* src/Sidebar.css */
+.menu {
+    height: 1px;
+
+
+
+    position: relative;
+    /* Cần để đảm bảo positioning cho các phần tử bên trong */
+}
+
+.menu .sidebar {
+    display: flex;
+
+    visibility: hidden;
+}
+
+.menu .sidebar.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    visibility: visible;
+    ;
+
+}
+
+.menu .sidebar .left {
+    width: 60%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    /* Màu sắc và độ trong suốt của lớp phủ */
+    transform: translateX(-120%);
+    transition: transform 1s ease;
+}
+
+.menu .sidebar .right {
+    width: 40%;
+    height: 100vh;
+    background: #ffffff;
+    transform: translateY(-120%);
+    transition: transform 1s ease;
+    overflow-y: auto;
+
+}
+
+.menu .sidebar.active .left {
+    transform: translateX(0%);
+}
+
+.menu .sidebar.active .right {
+    transform: translateY(0%);
+}
+
+
+
+.cart-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+    margin-bottom: 10px;
+}
+
+.cart-total .h6 {
+    font-weight: 600;
+}
+
+.shipping-time {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.shipping-time .dz-icon {
+    min-width: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.shipping-time .progress {
+    border-radius: 0;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.mybuttoncart {
+    font-size: 16px;
+    padding: 12px 30px;
+    line-height: 24px;
+    display: inline-flex;
+    border-radius: 0.625rem !important;
+    font-weight: 500;
+    position: relative;
+    text-transform: capitalize;
+    font-family: "Lufga", sans-serif;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+    -webkit-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 991px) {
+
+    /* .collapse span {
+        display: none;
+
+    
+    } */
+    .menu .sidebar .right {
+        width: 50%;
+    }
+
+    .menu .sidebar .left {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 791px) {
+
+    /* .collapse span {
+        display: none;
+
+    
+    } */
+    .menu .sidebar .right {
+        width: 75%;
+    }
+
+    .menu .sidebar .left {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 529px) {
+
+    /* .collapse span {
+        display: none;
+
+    
+    } */
+    .menu .sidebar .right {
+        width: 80%;
+    }
+
+    .menu .sidebar .left {
+        width: 20%;
+    }
+
+}
+
+@media only screen and (max-width: 429px) {
+
+    /* .collapse span {
+        display: none;
+
+    
+    } */
+    .menu .sidebar .right {
+        width: 95%;
+    }
+
+    .menu .sidebar .left {
+        width: 5%;
+    }
+
+    .cart-right-header .table {
+        font-size: 9px;
+    }
+}
+
+
+.cart-right-header .table {
+    font-size: 10px;
+}
+
+.cart-right-header .table th,
+.cart-right-header .table td {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.cart-right-header img {
+    width: 60%;
+}
+
+@media only screen and (min-width: 1116px) {
+    .cart-right-header .table {
+        font-size: 16px;
+    }
+}

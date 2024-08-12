@@ -1,0 +1,46 @@
+/* Đặt kích thước cho Swiper */
+.mySwiper {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của khung chứa */
+    height: 250px; /* Đặt chiều cao cụ thể */
+  }
+  
+  /* Nếu bạn muốn điều chỉnh kích thước cho từng slide */
+  .swiper-slide {
+    font-size: 1.5rem; /* Kích thước chữ lớn hơn để dễ nhìn hơn */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .category-product {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.category-product .title {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+    padding-top: 15px;
+    font-weight: 500;
+    z-index: 1;
+}
+.category-product img {
+    width: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 180px;
+    object-fit: cover;
+}
+@media only screen and (max-width: 575px) {
+    .mySwiper {
+      
+      
+      }
+}
+.category-product img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
